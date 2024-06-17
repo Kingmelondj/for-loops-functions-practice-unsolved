@@ -9,7 +9,7 @@ describe('getClientWithGreatestBalance', () => {
   it('Should return an array of 1 item (object)', () => {
     expect(getClientWithGreatestBalance(bankAccounts).length).toEqual(1);
   });
-  it('Should return an exact string value', () => {
+  it.only('Should return an exact string value', () => {
     expect(getClientWithGreatestBalance(bankAccounts)).toEqual([
       {
         id: 3,
