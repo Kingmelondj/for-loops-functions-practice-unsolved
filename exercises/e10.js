@@ -5,7 +5,7 @@
 
 export function getClientsWithLetterInName(array, letter) {
   // Your code goes here...
-
+  
 }
 
 // === TEST YOURSELF ===
